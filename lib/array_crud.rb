@@ -3,7 +3,8 @@ def create_an_empty_array
 end
 
 def create_an_array
-
+  created_array = Array.new
+  created_array.push("tea")
 end
 
 def add_element_to_end_of_array(array, element)
