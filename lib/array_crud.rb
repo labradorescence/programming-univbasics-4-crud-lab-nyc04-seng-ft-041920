@@ -8,11 +8,12 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-
+  array_ele = []
+  array_ele.push("element")
 end
 
 def add_element_to_start_of_array(array, element)
-
+  array_ele.unshift("unshift_element")
 end
 
 def remove_element_from_end_of_array(array)
